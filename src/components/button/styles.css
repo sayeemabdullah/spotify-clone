@@ -1,0 +1,8 @@
+.Button.getPremium{
+    background-color: #1db955;
+    color: white;
+}
+
+.Button.getPremium:hover{
+    background-color: #1ED760;
+}
