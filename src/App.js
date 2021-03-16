@@ -1,5 +1,4 @@
-import "./App.css";
-import { GetPremiumButton } from "./components/button/index";
+import GetPremiumButton from "./components/button/index";
 
 function App() {
   return (

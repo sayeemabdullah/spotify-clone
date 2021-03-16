@@ -1,8 +1,9 @@
-.Button.getPremium{
-    background-color: #1db955;
-    color: white;
+.Button {
+  background-color: #1db955;
+  color: white;
+  border-radius: 12px;
 }
 
-.Button.getPremium:hover{
-    background-color: #1ED760;
+.Button:hover {
+  background-color: #1ed760;
 }
