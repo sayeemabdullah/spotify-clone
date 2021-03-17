@@ -1,9 +1,9 @@
-import GetPremiumButton from "./components/button/index";
+import GetPremiumButton from "./components/button/GetPremiumButton";
 
 function App() {
   return (
     <div className="App">
-      <GetPremiumButton></GetPremiumButton>
+      <GetPremiumButton color="primary">GET SPOTIFY PREMIUM</GetPremiumButton>
     </div>
   );
 }
