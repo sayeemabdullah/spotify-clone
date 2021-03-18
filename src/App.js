@@ -3,6 +3,7 @@ import LaunchWebPlayerButton from "./components/button/LaunchWebPlayerButton";
 import NavBar from "./components/navBar/NavBar";
 import HeaderDiv from "./components/div/HeaderDiv";
 import SecondDiv from "./components/div/SecondDiv";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <HeaderDiv></HeaderDiv>
         <SecondDiv></SecondDiv>
       </div>
+      <Footer></Footer>
     </>
   );
 }

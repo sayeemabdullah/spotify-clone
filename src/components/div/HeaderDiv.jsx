@@ -1,17 +1,16 @@
 import { makeStyles } from "@material-ui/styles";
 import React from "react";
 import GetPremiumButton from "../button/GetPremiumButton";
-import NavBar from "../navBar/NavBar";
 
 const styles = makeStyles({
   default: {
     backgroundColor: "#F2B857",
-    padding: "11rem",
+    padding: "10rem",
   },
   headingText: {
     color: "white",
-    fontSize: "4rem",
-    fontWeight: "bolder",
+    fontSize: "4.5rem",
+    fontWeight: "bold",
   },
 });
 

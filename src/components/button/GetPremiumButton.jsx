@@ -5,8 +5,8 @@ import propTypes from "prop-types";
 const styles = () => ({
   default: {
     borderRadius: "360px",
-    height: "3.5em",
-    width: "21em",
+    height: "3.5rem",
+    width: "21rem",
     margin: "2px auto",
     textTransform: "none",
     background: "#1db955",
