@@ -3,7 +3,6 @@ import { AppBar, Toolbar, Typography, makeStyles } from "@material-ui/core";
 import logo from "./Spotify_Logo_NavBar.png";
 import IconButton from "@material-ui/core/IconButton";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
-import { SpaceBar } from "@material-ui/icons";
 
 const styles = makeStyles({
   default: {
