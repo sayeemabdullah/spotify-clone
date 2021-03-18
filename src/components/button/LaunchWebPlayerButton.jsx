@@ -4,23 +4,25 @@ import propTypes from "prop-types";
 
 const styles = () => ({
   default: {
+    background: "white",
+    color: "#616467",
     borderRadius: "360px",
+    border: "2px solid #616467",
     height: "3.5em",
     width: "21em",
     margin: "2px auto",
     textTransform: "none",
-    background: "#1db955",
-    color: "white",
     fontSize: "16px",
     fontWeight: "bold",
     display: "inline-block",
     "&:hover": {
-      background: "#1ed760",
+      background: "#616467",
+      color: "white",
     },
   },
 });
 
-const GetPremiumButton = ({ color, children, classes }) => {
+const LaunchWebPlayerButton = ({ children, color, classes }) => {
   return (
     <Button
       variant="contained"
@@ -33,8 +35,8 @@ const GetPremiumButton = ({ color, children, classes }) => {
   );
 };
 
-GetPremiumButton.propTypes = {
+LaunchWebPlayerButton.propTypes = {
   color: propTypes.string,
 };
 
-export default withStyles(styles)(GetPremiumButton);
+export default withStyles(styles)(LaunchWebPlayerButton);

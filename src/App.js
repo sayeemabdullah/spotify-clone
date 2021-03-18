@@ -1,10 +1,18 @@
 import GetPremiumButton from "./components/button/GetPremiumButton";
+import LaunchWebPlayerButton from "./components/button/LaunchWebPlayerButton";
+import NavBar from "./components/navBar/NavBar";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <GetPremiumButton color="primary">GET SPOTIFY PREMIUM</GetPremiumButton>
-    </div>
+    <>
+      <NavBar></NavBar>
+      <div className="App">
+        <GetPremiumButton>GET SPOTIFY PREMIUM</GetPremiumButton>
+        <br></br>
+        <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
+      </div>
+    </>
   );
 }
 
