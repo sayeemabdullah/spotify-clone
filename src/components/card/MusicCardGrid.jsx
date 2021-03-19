@@ -11,8 +11,8 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   gridContainer: {
-    paddingLeft: "12rem",
-    paddingRight: "4rem",
+    paddingLeft: "22rem",
+    paddingRight: "20rem",
     paddingTop: "5rem",
     paddingBottom: "10rem",
   },
@@ -24,7 +24,7 @@ export default function MusicCardGrid() {
     <>
       <Grid
         container
-        spacing={4}
+        spacing={1}
         className={classes.gridContainer}
         justify="center"
       >

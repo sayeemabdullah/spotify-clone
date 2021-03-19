@@ -7,7 +7,7 @@ import imageLink from "../card/musicAlbumCover/1000.jpg";
 
 const styles = () => ({
   root: {
-    maxWidth: "25rem",
+    width: "25rem",
     height: "25rem",
   },
 });
