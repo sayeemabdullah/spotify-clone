@@ -10,6 +10,7 @@ const styles = makeStyles({
   default: {
     backgroundColor: "black",
     padding: "10rem",
+    position: "relative",
   },
   table: {
     marginLeft: "15rem",
@@ -38,9 +39,9 @@ const styles = makeStyles({
   },
   socialNetworks: {
     color: "white",
-    position: "relative",
-    left: "80rem",
-    bottom: "15rem",
+    position: "absolute",
+    left: "100rem",
+    bottom: "23rem",
   },
   socialNetwork: {
     marginLeft: "2rem",
