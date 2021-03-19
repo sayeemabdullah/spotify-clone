@@ -38,9 +38,9 @@ const styles = makeStyles({
   },
   socialNetworks: {
     color: "white",
-    position: "absolute",
-    right: "20rem",
-    bottom: "-5rem",
+    position: "relative",
+    left: "80rem",
+    bottom: "15rem",
   },
   socialNetwork: {
     marginLeft: "2rem",
