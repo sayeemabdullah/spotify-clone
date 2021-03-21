@@ -6,12 +6,12 @@ const styles = () => ({
   default: {
     borderRadius: "360px",
     height: "3.5rem",
-    width: "21rem",
+    width: "21em",
     margin: "2px auto",
     textTransform: "none",
     background: "#1db955",
     color: "white",
-    fontSize: "16px",
+    fontSize: "1em",
     fontWeight: "bold",
     display: "inline-block",
     "&:hover": {

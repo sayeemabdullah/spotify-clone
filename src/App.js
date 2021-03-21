@@ -8,11 +8,11 @@ function App() {
   return (
     <>
       <div className="App">
-        <NavBar></NavBar>
+        {/* <NavBar></NavBar> */}
         <HeaderDiv></HeaderDiv>
-        <SecondDiv></SecondDiv>
+        {/* <SecondDiv></SecondDiv> */}
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 }
