@@ -1,5 +1,3 @@
-import GetPremiumButton from "./components/button/GetPremiumButton";
-import LaunchWebPlayerButton from "./components/button/LaunchWebPlayerButton";
 import NavBar from "./components/navBar/NavBar";
 import HeaderDiv from "./components/div/HeaderDiv";
 import SecondDiv from "./components/div/SecondDiv";
@@ -13,8 +11,8 @@ function App() {
         <NavBar></NavBar>
         <HeaderDiv></HeaderDiv>
         <SecondDiv></SecondDiv>
-        <Footer></Footer>
       </div>
+      <Footer></Footer>
     </>
   );
 }
