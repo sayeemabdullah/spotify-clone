@@ -10,7 +10,6 @@ const styles = () => ({
     border: "2px solid #616467",
     height: "3em",
     width: "18em",
-    marginBottom: "60px",
     textTransform: "none",
     fontSize: "16px",
     fontWeight: "bold",

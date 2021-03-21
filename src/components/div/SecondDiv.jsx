@@ -22,6 +22,9 @@ const styles = makeStyles({
     fontWeight: "bold",
     paddingBottom: "25px",
   },
+  gridContainer: {
+    padding: "100px",
+  },
 });
 
 export default function SecondDiv() {
@@ -34,7 +37,7 @@ export default function SecondDiv() {
           Start listening to the best new releases.
         </div>
         <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
-        <div>
+        <div className={classes.gridContainer}>
           <MusicCardGrid></MusicCardGrid>
         </div>
       </div>

@@ -20,13 +20,7 @@ export default function MusicCardGrid() {
   const classes = useStyles();
   return (
     <>
-      <Grid
-        container
-        className={classes.gridContainer}
-        direction="row"
-        justify="center"
-        alignItems="center"
-      >
+      <Grid container direction="row" justify="center" alignItems="center">
         <Grid item>
           <MusicCard imageLink={awakeep}></MusicCard>
         </Grid>
