@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className="App">
-        {/* <NavBar></NavBar> */}
+        <NavBar></NavBar>
         <HeaderDiv></HeaderDiv>
         {/* <SecondDiv></SecondDiv> */}
       </div>

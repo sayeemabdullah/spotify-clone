@@ -30,9 +30,7 @@ const styles = makeStyles({
     },
   },
   contents: {
-    marginLeft: "auto",
-    marginRight: "auto",
-    width: "80rem",
+    padding: "0 12rem 0 12rem",
   },
 });
 
