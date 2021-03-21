@@ -13,7 +13,8 @@ const styles = makeStyles({
     position: "relative",
   },
   table: {
-    marginLeft: "15rem",
+    marginLeft: "20rem",
+    marginRight: "20rem",
     marginTop: "-5rem",
     color: "white",
     fontSize: "0.9rem",
@@ -34,7 +35,7 @@ const styles = makeStyles({
     },
   },
   image: {
-    height: "2rem",
+    height: "3rem",
     marginTop: "-10rem",
   },
   socialNetworks: {
