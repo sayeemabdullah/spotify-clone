@@ -12,7 +12,7 @@ function App() {
         <HeaderDiv></HeaderDiv>
         <SecondDiv></SecondDiv>
       </div>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </>
   );
 }
