@@ -29,6 +29,11 @@ const styles = makeStyles({
       color: "#2FB150",
     },
   },
+  contents: {
+    marginLeft: "auto",
+    marginRight: "auto",
+    width: "80rem",
+  },
 });
 
 export default function NavBar() {
@@ -36,28 +41,30 @@ export default function NavBar() {
   return (
     <>
       <AppBar position="sticky" className={classes.default}>
-        <Toolbar>
-          <Typography variant="title">
-            <img src={logo} height={35}></img>
-          </Typography>
-          <section className={classes.rightToolbar}>
-            <IconButton color="inherit">
-              <span className={classes.spanFont}>Premium</span>
-            </IconButton>
-            <IconButton color="inherit">
-              <span className={classes.spanFont}>Support</span>
-            </IconButton>
-            <IconButton color="inherit">
-              <span className={classes.spanFont}>Download</span>
-            </IconButton>
-            <IconButton color="inherit">
-              <div className={classes.iconDiv}>
-                <AccountCircleIcon></AccountCircleIcon>
-                <span style={{ margin: 10 }}>Profile</span>
-              </div>
-            </IconButton>
-          </section>
-        </Toolbar>
+        <div className={classes.contents}>
+          <Toolbar>
+            <Typography variant="title">
+              <img src={logo} height={35}></img>
+            </Typography>
+            <section className={classes.rightToolbar}>
+              <IconButton color="inherit">
+                <span className={classes.spanFont}>Premium</span>
+              </IconButton>
+              <IconButton color="inherit">
+                <span className={classes.spanFont}>Support</span>
+              </IconButton>
+              <IconButton color="inherit">
+                <span className={classes.spanFont}>Download</span>
+              </IconButton>
+              <IconButton color="inherit">
+                <div className={classes.iconDiv}>
+                  <AccountCircleIcon></AccountCircleIcon>
+                  <span style={{ margin: 10 }}>Profile</span>
+                </div>
+              </IconButton>
+            </section>
+          </Toolbar>
+        </div>
       </AppBar>
     </>
   );

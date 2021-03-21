@@ -12,6 +12,11 @@ const styles = makeStyles({
     fontSize: "4.5rem",
     fontWeight: "bold",
   },
+  contents: {
+    marginLeft: "auto",
+    marginRight: "auto",
+    width: "80rem",
+  },
 });
 
 export default function HeaderDiv() {
@@ -19,8 +24,10 @@ export default function HeaderDiv() {
   return (
     <>
       <div className={classes.default}>
-        <h1 className={classes.headingText}>Go Premium. Be happy.</h1>
-        <GetPremiumButton>GET SPOTIFY PREMIUM</GetPremiumButton>
+        <div className={classes.contents}>
+          <h1 className={classes.headingText}>Go Premium. Be happy.</h1>
+          <GetPremiumButton>GET SPOTIFY PREMIUM</GetPremiumButton>
+        </div>
       </div>
     </>
   );
