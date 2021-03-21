@@ -5,7 +5,8 @@ import GetPremiumButton from "../button/GetPremiumButton";
 const styles = makeStyles({
   default: {
     backgroundColor: "#F2B857",
-    padding: "10rem",
+    paddingTop: "10rem",
+    paddingBottom: "10rem",
   },
   headingText: {
     color: "white",
