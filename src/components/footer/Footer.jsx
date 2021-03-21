@@ -40,7 +40,7 @@ const styles = makeStyles({
   socialNetworks: {
     color: "white",
     position: "absolute",
-    left: "100rem",
+    right: "10rem",
     bottom: "23rem",
   },
   socialNetwork: {
