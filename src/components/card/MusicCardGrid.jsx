@@ -11,8 +11,6 @@ import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   gridContainer: {
-    paddingLeft: "22rem",
-    paddingRight: "20rem",
     paddingTop: "5rem",
     paddingBottom: "10rem",
   },

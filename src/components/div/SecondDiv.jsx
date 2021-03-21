@@ -21,6 +21,11 @@ const styles = makeStyles({
     marginTop: "-1.2rem",
     marginBottom: "1rem",
   },
+  contents: {
+    marginLeft: "auto",
+    marginRight: "auto",
+    width: "80rem",
+  },
 });
 
 export default function SecondDiv() {
@@ -28,13 +33,15 @@ export default function SecondDiv() {
   return (
     <>
       <div className={classes.default}>
-        <h1 className={classes.headingText}>Looking for music?</h1>
-        <h2 className={classes.secondaryText}>
-          Start listening to the best new releases.
-        </h2>
-        <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
-        <div>
-          <MusicCardGrid></MusicCardGrid>
+        <div className={classes.contents}>
+          <h1 className={classes.headingText}>Looking for music?</h1>
+          <h2 className={classes.secondaryText}>
+            Start listening to the best new releases.
+          </h2>
+          <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
+          <div>
+            <MusicCardGrid></MusicCardGrid>
+          </div>
         </div>
       </div>
     </>
