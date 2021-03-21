@@ -13,8 +13,8 @@ function App() {
         <NavBar></NavBar>
         <HeaderDiv></HeaderDiv>
         <SecondDiv></SecondDiv>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </>
   );
 }
