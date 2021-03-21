@@ -9,6 +9,7 @@ const styles = () => ({
   root: {
     width: "25rem",
     height: "25rem",
+    padding: "5px",
   },
 });
 

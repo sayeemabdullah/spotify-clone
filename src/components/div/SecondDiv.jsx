@@ -10,21 +10,17 @@ import pain from "../card/musicAlbumCover/pain.jpg";
 const styles = makeStyles({
   default: {
     backgroundColor: "white",
-    paddingTop: "2rem",
+    paddingTop: "90px",
   },
   headingText: {
-    fontSize: "3rem",
+    fontSize: "3em",
+    fontWeight: "bold",
+    paddingBottom: "15px",
   },
   secondaryText: {
-    fontSize: "1.2rem",
-    fontWeight: "lighter",
-    marginTop: "-1.2rem",
-    marginBottom: "1rem",
-  },
-  contents: {
-    marginLeft: "auto",
-    marginRight: "auto",
-    width: "80rem",
+    fontSize: "1rem",
+    fontWeight: "bold",
+    paddingBottom: "25px",
   },
 });
 
@@ -33,15 +29,13 @@ export default function SecondDiv() {
   return (
     <>
       <div className={classes.default}>
-        <div className={classes.contents}>
-          <h1 className={classes.headingText}>Looking for music?</h1>
-          <h2 className={classes.secondaryText}>
-            Start listening to the best new releases.
-          </h2>
-          <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
-          <div>
-            <MusicCardGrid></MusicCardGrid>
-          </div>
+        <div className={classes.headingText}>Looking for music?</div>
+        <div className={classes.secondaryText}>
+          Start listening to the best new releases.
+        </div>
+        <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
+        <div>
+          <MusicCardGrid></MusicCardGrid>
         </div>
       </div>
     </>
