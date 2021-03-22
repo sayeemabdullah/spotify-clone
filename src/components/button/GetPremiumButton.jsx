@@ -17,6 +17,10 @@ const styles = () => ({
     "&:hover": {
       background: "#1ed760",
     },
+    "@media (max-width: 364px)": {
+      height: "4rem",
+      width: "12em",
+    },
   },
 });
 

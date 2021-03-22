@@ -12,6 +12,9 @@ const styles = makeStyles({
     color: "white",
     fontSize: "4.5rem",
     fontWeight: "bold",
+    "@media (max-width: 325px)": {
+      fontSize: "3.5rem",
+    },
   },
 });
 
