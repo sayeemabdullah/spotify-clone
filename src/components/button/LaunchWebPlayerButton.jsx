@@ -18,6 +18,11 @@ const styles = () => ({
       background: "#616467",
       color: "white",
     },
+    "@media (max-width: 325px)": {
+      height: "5em",
+      width: "20em",
+      fontSize: "12px",
+    },
   },
 });
 
