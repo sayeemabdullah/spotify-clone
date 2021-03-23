@@ -27,6 +27,9 @@ const styles = makeStyles({
     "@media (max-width: 1295px)": {
       padding: "50px",
     },
+    "@media (max-width: 767px)": {
+      padding: "50px 0 50px 0",
+    },
   },
 });
 
