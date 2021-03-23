@@ -52,7 +52,7 @@ const styles = makeStyles({
     },
   },
   contents: {
-    padding: "0 12rem 0 12rem",
+    padding: "0 10rem 0 10rem",
     "@media (max-width: 1238px)": {
       padding: "0 0 0 0",
     },
