@@ -14,35 +14,51 @@ const styles = () => ({
       width: "25em",
       padding: "3px",
     },
-    "@media (max-width: 1189px)": {
-      height: "20em",
-      width: "20em",
+    "@media (max-width: 1417px)": {
+      height: "25em",
+      width: "25em",
       padding: "2px",
     },
-    // "@media (max-width: 949px)": {
-    //   height: "13em",
-    //   width: "13em",
-    // },
-    // "@media (max-width: 853px)": {
-    //   height: "13em",
-    //   width: "13em",
-    //   padding: "3px",
-    // },
-    // "@media (max-width: 841px)": {
-    //   height: "11em",
-    //   width: "11em",
-    //   padding: "3px",
-    // },
-    // "@media (max-width: 745px)": {
-    //   height: "10em",
-    //   width: "10em",
-    //   padding: "2px",
-    // },
-    // "@media (max-width: 745px)": {
-    //   height: "9em",
-    //   width: "9em",
-    //   padding: "1px",
-    // },
+    "@media (max-width: 1411px)": {
+      height: "23em",
+      width: "23em",
+      padding: "2px",
+    },
+    "@media (max-width: 1315px)": {
+      height: "21em",
+      width: "21em",
+      padding: "2px",
+    },
+    "@media (max-width: 1219px)": {
+      height: "19em",
+      width: "19em",
+      padding: "2px",
+    },
+    "@media (max-width: 1123px)": {
+      height: "17em",
+      width: "17em",
+      padding: "2px",
+    },
+    "@media (max-width: 1027px)": {
+      height: "15em",
+      width: "15em",
+      padding: "2px",
+    },
+    "@media (max-width: 931px)": {
+      height: "14em",
+      width: "14em",
+      padding: "1.5px",
+    },
+    "@media (max-width: 880px)": {
+      height: "12em",
+      width: "12em",
+      padding: "1.5px",
+    },
+    "@media (max-width: 784px)": {
+      height: "10em",
+      width: "10em",
+      padding: "1.5px",
+    },
   },
 });
 

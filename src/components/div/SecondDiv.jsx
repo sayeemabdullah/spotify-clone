@@ -7,6 +7,9 @@ const styles = makeStyles({
   default: {
     backgroundColor: "white",
     paddingTop: "90px",
+    "@media (max-width: 1295px)": {
+      paddingTop: "50px",
+    },
   },
   headingText: {
     fontSize: "3em",
@@ -20,6 +23,9 @@ const styles = makeStyles({
   },
   gridContainer: {
     padding: "100px",
+    "@media (max-width: 1295px)": {
+      padding: "50px",
+    },
   },
 });
 
