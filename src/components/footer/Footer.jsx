@@ -9,7 +9,7 @@ import Grid from "@material-ui/core/Grid";
 const styles = makeStyles({
   default: {
     backgroundColor: "black",
-    padding: "10rem",
+    padding: "5rem 5rem 5rem 5rem ",
   },
   table: {
     color: "white",
