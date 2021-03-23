@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/styles";
 import React from "react";
 import LaunchWebPlayerButton from "../button/LaunchWebPlayerButton";
 import MusicCardGrid from "../card/MusicCardGrid";
+import MusicCardSlider from "../card/MusicCardSlider";
 
 const styles = makeStyles({
   default: {
@@ -41,6 +42,7 @@ export default function SecondDiv() {
         <LaunchWebPlayerButton>LAUNCH WEB PLAYER</LaunchWebPlayerButton>
         <div className={classes.gridContainer}>
           <MusicCardGrid></MusicCardGrid>
+          <MusicCardSlider></MusicCardSlider>
         </div>
       </div>
     </>

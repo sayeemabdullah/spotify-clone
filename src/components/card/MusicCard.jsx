@@ -59,6 +59,9 @@ const styles = () => ({
       width: "10em",
       padding: "1.5px",
     },
+    "@media (max-width: 767px)": {
+      display: "none",
+    },
   },
 });
 
